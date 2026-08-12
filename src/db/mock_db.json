@@ -1,0 +1,870 @@
+{
+  "users": [
+    {
+      "id": "d3b07384-d113-4956-bc21-0a625a6f23b2",
+      "email": "admin@imalihub.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "Imali Hub Administrator",
+      "phone_number": "+250780000001",
+      "national_id": "1199580000000012",
+      "role": "admin",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.227Z",
+      "updated_at": "2026-06-22T21:05:59.230Z"
+    },
+    {
+      "id": "e2b07384-d113-4956-bc21-0a625a6f23b3",
+      "email": "officer@bk.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "Jean Keza",
+      "phone_number": "+250780000002",
+      "national_id": "1199580000000013",
+      "role": "bank_officer",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.230Z",
+      "updated_at": "2026-06-22T21:05:59.230Z"
+    },
+    {
+      "id": "f2b07384-d113-4956-bc21-0a625a6f23b4",
+      "email": "citizen@gmail.com",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "Mugenzi Eric",
+      "phone_number": "+250788123456",
+      "national_id": "1199280123456789",
+      "role": "citizen",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.230Z",
+      "updated_at": "2026-06-22T21:05:59.230Z"
+    },
+    {
+      "id": "u-gv7jj3mbi",
+      "email": "lewis@gmail.com",
+      "password_hash": "$2a$10$Gh/.OGwn0x/4wT0llmK/x.2AhxsrdJrbR.U0utHmuWs0BEec.JxAe",
+      "full_name": "billly",
+      "phone_number": "0782747969",
+      "national_id": "1200280007025199",
+      "role": "citizen",
+      "status": "active",
+      "created_at": "2026-06-24T09:39:40.326Z",
+      "updated_at": "2026-06-24T09:39:40.326Z"
+    },
+    {
+      "id": "u-0qsdkynnk",
+      "email": "blcinton2026@gmail.com",
+      "password_hash": "$2a$10$AyvIYvkxgoUXQWhExW9Xr.fYAGiB1TLaKg0ucdp/LBTObyJxOjHu2",
+      "full_name": "BIRIKUMANA Lewis",
+      "phone_number": "+250782747969",
+      "national_id": null,
+      "role": "bank_officer",
+      "status": "active",
+      "created_at": "2026-08-05T08:20:48.002Z",
+      "updated_at": "2026-08-05T08:20:48.002Z"
+    },
+    {
+      "id": "u-r6sm2inp3",
+      "email": "birilewis219@gmail.com",
+      "password_hash": "$2a$10$gEks3XCVR3xNYYt68fEZ/uFvLjTVN8wd4kM.PvuWXRYU/mCbYKPJy",
+      "full_name": "biri rewis",
+      "phone_number": "+250782747969",
+      "national_id": "1200280002575199",
+      "role": "citizen",
+      "status": "active",
+      "created_at": "2026-08-10T18:41:13.838Z",
+      "updated_at": "2026-08-10T18:41:13.838Z"
+    },
+    {
+      "id": "a1b07384-d113-4956-bc21-0a625a6f23b5",
+      "email": "rm@bk.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "RM Alice",
+      "phone_number": "+250788123457",
+      "national_id": "1199280123456790",
+      "role": "relationship_manager",
+      "status": "active",
+      "created_at": "2026-08-10T18:41:13.838Z",
+      "updated_at": "2026-08-10T18:41:13.838Z"
+    },
+    {
+      "id": "b2b07384-d113-4956-bc21-0a625a6f23b6",
+      "email": "cm@bk.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "CM Bob",
+      "phone_number": "+250788123458",
+      "national_id": "1199280123456791",
+      "role": "credit_manager",
+      "status": "active",
+      "created_at": "2026-08-10T18:41:13.838Z",
+      "updated_at": "2026-08-10T18:41:13.838Z"
+    },
+    {
+      "id": "c3b07384-d113-4956-bc21-0a625a6f23b7",
+      "email": "ho@bk.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "Head Officer Charlie",
+      "phone_number": "+250788123459",
+      "national_id": "1199280123456792",
+      "role": "head_officer",
+      "status": "active",
+      "created_at": "2026-08-11T03:12:31.175Z",
+      "updated_at": "2026-08-11T03:12:31.176Z"
+    },
+    {
+      "id": "d4b07384-d113-4956-bc21-0a625a6f23b8",
+      "email": "analyst@bk.rw",
+      "password_hash": "$2a$10$p9R2Ipew8CQtHLwPbYz5qOAl5DFiRzxT3wJ6Ccb191d9T2ujLAoj2",
+      "full_name": "Analyst Dave",
+      "phone_number": "+250788123460",
+      "national_id": "1199280123456793",
+      "role": "analyst",
+      "status": "active",
+      "created_at": "2026-08-11T05:15:17.948Z",
+      "updated_at": "2026-08-11T05:15:17.949Z"
+    },
+    {
+      "id": "u-g1iac1rq8",
+      "email": "birilewis2019@gmail.com",
+      "password_hash": "$2a$10$ahFQ9A8VbkvZ3uqk4sWbpeUavRz64iuG.x75VzvQrijfQi3fbngg6",
+      "full_name": "biri rewis",
+      "phone_number": "+250782747969",
+      "national_id": "1200280002575199",
+      "role": "citizen",
+      "status": "active",
+      "created_at": "2026-08-12T01:25:58.658Z",
+      "updated_at": "2026-08-12T01:25:58.658Z"
+    }
+  ],
+  "banks": [
+    {
+      "id": "b072da3e-08bb-44ab-9c59-d8e2026857ba",
+      "name": "Bank of Kigali",
+      "code": "BK",
+      "logo_url": "https://www.bk.rw/assets/img/logo.png",
+      "rating": 4.8,
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "c072da3e-08bb-44ab-9c59-d8e2026857bb",
+      "name": "I&M Bank Rwanda",
+      "code": "IMB",
+      "logo_url": "https://www.imbank.com/rwanda/logo.png",
+      "rating": 4.6,
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "d072da3e-08bb-44ab-9c59-d8e2026857bc",
+      "name": "Equity Bank Rwanda",
+      "code": "EQTY",
+      "logo_url": "https://equitygroupholdings.com/rw/logo.png",
+      "rating": 4.4,
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "f072da3e-08bb-44ab-9c59-d8e2026857be",
+      "name": "Development Bank of Rwanda",
+      "code": "BRD",
+      "logo_url": "https://www.brd.rw/logo.png",
+      "rating": 4.5,
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "g072da3e-08bb-44ab-9c59-d8e2026857bf",
+      "name": "Urwego Bank (Microfinance)",
+      "code": "URWG",
+      "logo_url": "https://urwegobank.com/logo.png",
+      "rating": 4.1,
+      "created_at": "2026-08-12T01:31:08.417Z"
+    },
+    {
+      "id": "h072da3e-08bb-44ab-9c59-d8e2026857c0",
+      "name": "Umwalimu SACCO",
+      "code": "USAC",
+      "logo_url": "https://umwalimusacco.rw/logo.png",
+      "rating": 4.7,
+      "created_at": "2026-08-12T01:31:08.418Z"
+    },
+    {
+      "id": "i072da3e-08bb-44ab-9c59-d8e2026857c1",
+      "name": "Zigama CSS",
+      "code": "ZCSS",
+      "logo_url": "https://zigamacss.rw/logo.png",
+      "rating": 4.8,
+      "created_at": "2026-08-12T01:31:08.419Z"
+    },
+    {
+      "id": "j072da3e-08bb-44ab-9c59-d8e2026857c2",
+      "name": "BPR Bank Rwanda Plc",
+      "code": "BPR",
+      "logo_url": "https://bpr.rw/logo.png",
+      "rating": 4.5,
+      "created_at": "2026-08-12T01:31:08.419Z"
+    },
+    {
+      "id": "k072da3e-08bb-44ab-9c59-d8e2026857c3",
+      "name": "Ecobank Rwanda",
+      "code": "ECO",
+      "logo_url": "https://ecobank.com/logo.png",
+      "rating": 4.2,
+      "created_at": "2026-08-12T01:31:08.419Z"
+    },
+    {
+      "id": "l072da3e-08bb-44ab-9c59-d8e2026857c4",
+      "name": "KCB Bank Rwanda",
+      "code": "KCB",
+      "logo_url": "https://kcbgroup.com/logo.png",
+      "rating": 4.3,
+      "created_at": "2026-08-12T01:31:08.419Z"
+    }
+  ],
+  "loan_products": [
+    {
+      "id": "l1b07384-d113-4956-bc21-0a625a6f23c1",
+      "bank_id": "b072da3e-08bb-44ab-9c59-d8e2026857ba",
+      "name": "BK Personal Loan",
+      "loan_type": "personal",
+      "interest_rate": 15.5,
+      "max_amount": 15000000,
+      "repayment_months": 60,
+      "requirements": "[\"Proof of regular income (Payslip)\",\"National ID copy\",\"Active BK account\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l2b07384-d113-4956-bc21-0a625a6f23c2",
+      "bank_id": "b072da3e-08bb-44ab-9c59-d8e2026857ba",
+      "name": "BK Agri-Business Finance",
+      "loan_type": "agricultural",
+      "interest_rate": 12,
+      "max_amount": 50000000,
+      "repayment_months": 36,
+      "requirements": "[\"Land title (Ubutaka)\",\"Project business plan\",\"Cooperative membership proof\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l3b07384-d113-4956-bc21-0a625a6f23c3",
+      "bank_id": "c072da3e-08bb-44ab-9c59-d8e2026857bb",
+      "name": "I&M SME Business Loan",
+      "loan_type": "business",
+      "interest_rate": 14.8,
+      "max_amount": 100000000,
+      "repayment_months": 48,
+      "requirements": "[\"Business registration (RDB certificate)\",\"6 months bank statement\",\"Tax clearance certificate (RRA)\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l4b07384-d113-4956-bc21-0a625a6f23c4",
+      "bank_id": "d072da3e-08bb-44ab-9c59-d8e2026857bc",
+      "name": "Equity Mortgage Loan",
+      "loan_type": "mortgage",
+      "interest_rate": 16,
+      "max_amount": 250000000,
+      "repayment_months": 180,
+      "requirements": "[\"Property valuation report\",\"Approved construction plan\",\"Proof of steady employment/income\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l6b07384-d113-4956-bc21-0a625a6f23c6",
+      "bank_id": "f072da3e-08bb-44ab-9c59-d8e2026857be",
+      "name": "BRD Agricultural Development Loan",
+      "loan_type": "agricultural",
+      "interest_rate": 10.5,
+      "max_amount": 75000000,
+      "repayment_months": 60,
+      "requirements": "[\"Land title (Ubutaka)\",\"Agricultural project plan\",\"Cooperative membership certificate\",\"RDB registration\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l7b07384-d113-4956-bc21-0a625a6f23c7",
+      "bank_id": "f072da3e-08bb-44ab-9c59-d8e2026857be",
+      "name": "BRD SME Growth Fund",
+      "loan_type": "business",
+      "interest_rate": 13,
+      "max_amount": 200000000,
+      "repayment_months": 84,
+      "requirements": "[\"Business registration (RDB)\",\"Tax clearance (RRA)\",\"Audited financial statements (2 years)\",\"Business plan\"]",
+      "status": "active",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "l8b07384-d113-4956-bc21-0a625a6f23c8",
+      "bank_id": "j072da3e-08bb-44ab-9c59-d8e2026857c2",
+      "name": "BPR Agri Loan",
+      "loan_type": "agricultural",
+      "interest_rate": 15,
+      "max_amount": 10000000,
+      "repayment_months": 36,
+      "requirements": "[\"Land Title\",\"Agriculture Project Plan\"]",
+      "status": "active",
+      "created_at": "2026-08-12T01:31:08.419Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-7ehs6ogon",
+      "user_id": "u-aqgrs0a8y",
+      "loan_product_id": "l1b07384-d113-4956-bc21-0a625a6f23c1",
+      "amount": 850000,
+      "term_months": 36,
+      "status": "under_review",
+      "notes": "Loan disbursed via MTN MoMo. Txn Ref: tx-test-993882",
+      "credit_score_estimate": 730,
+      "income_to_debt_ratio": 10,
+      "created_at": "2026-06-22T21:08:23.280Z",
+      "updated_at": "2026-08-11T02:59:56.745Z",
+      "assigned_role": "credit_manager",
+      "assigned_user_id": null
+    }
+  ],
+  "documents": [],
+  "notifications": [
+    {
+      "id": "n1b07384-d113-4956-bc21-0a625a6f23d1",
+      "user_id": "f2b07384-d113-4956-bc21-0a625a6f23b4",
+      "title": "Welcome to Imali Hub",
+      "message": "Explore loan rates from leading Rwandan banks and apply securely online.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-22T21:05:59.231Z"
+    },
+    {
+      "id": "n-7w5b8iug5",
+      "user_id": "u-bjg923idg",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho Test Citizen Eric, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-22T21:06:59.706Z",
+      "updated_at": "2026-06-22T21:06:59.706Z"
+    },
+    {
+      "id": "n-b0911jb6r",
+      "user_id": "u-aqgrs0a8y",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho Test Citizen Eric, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-22T21:08:23.011Z",
+      "updated_at": "2026-06-22T21:08:23.011Z"
+    },
+    {
+      "id": "n-sbxue4lyh",
+      "user_id": "u-aqgrs0a8y",
+      "title": "Application Submitted",
+      "message": "Your application of RWF 850000 for BK Personal Loan has been submitted. Status: Submitted.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-22T21:08:23.283Z",
+      "updated_at": "2026-06-22T21:08:23.283Z"
+    },
+    {
+      "id": "n-eay551o6z",
+      "user_id": "u-aqgrs0a8y",
+      "title": "Loan Disbursed!",
+      "message": "RWF 850,000 successfully deposited to your Mobile Money account via MTN MoMo. Ref: tx-test-993882.",
+      "channel": "sms",
+      "status": "sent",
+      "created_at": "2026-06-22T21:08:23.490Z",
+      "updated_at": "2026-06-22T21:08:23.491Z"
+    },
+    {
+      "id": "n-0swus6q0a",
+      "user_id": "u-f12wrd2hm",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho billy, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-24T09:38:24.780Z",
+      "updated_at": "2026-06-24T09:38:24.782Z"
+    },
+    {
+      "id": "n-8u24bawhq",
+      "user_id": "u-gv7jj3mbi",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho billly, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-24T09:39:40.327Z",
+      "updated_at": "2026-06-24T09:39:40.327Z"
+    },
+    {
+      "id": "n-zzimw2pn5",
+      "user_id": "u-we52h3rdy",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho billy eric, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "read",
+      "created_at": "2026-06-25T21:39:45.537Z",
+      "updated_at": "2026-08-04T08:02:23.273Z"
+    },
+    {
+      "id": "n-uz9rhtwb7",
+      "user_id": "u-5th4tsn0l",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho billy lewis, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-29T18:16:49.172Z",
+      "updated_at": "2026-06-29T18:16:49.172Z"
+    },
+    {
+      "id": "n-ei1m0io0b",
+      "user_id": "u-aqgrs0a8y",
+      "title": "Application Status Update",
+      "message": "Your loan application ID app-7ehs6ogon status has been updated to \"UNDER REVIEW\" by the Bank Officer. Notes: Loan disbursed via MTN MoMo. Txn Ref: tx-test-993882",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-06-29T18:26:01.475Z",
+      "updated_at": "2026-06-29T18:26:01.475Z"
+    },
+    {
+      "id": "n-1ld7wy5fl",
+      "user_id": "u-761hzugxl",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho Rwanda Polytechnic (Kigali), your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-07-30T18:33:33.508Z",
+      "updated_at": "2026-07-30T18:33:33.508Z"
+    },
+    {
+      "id": "n-lq5xahh9a",
+      "user_id": "u-0qsdkynnk",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho BIRIKUMANA Lewis, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-08-05T08:20:48.004Z",
+      "updated_at": "2026-08-05T08:20:48.004Z"
+    },
+    {
+      "id": "n-gkeip70oz",
+      "user_id": "u-r6sm2inp3",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho biri rewis, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-08-10T18:41:14.113Z",
+      "updated_at": "2026-08-10T18:41:14.113Z"
+    },
+    {
+      "id": "n-q2dwey8i4",
+      "user_id": "u-g1iac1rq8",
+      "title": "Welcome to Imali Hub!",
+      "message": "Muraho biri rewis, your account has been registered successfully. Explore loans and apply.",
+      "channel": "in_app",
+      "status": "sent",
+      "created_at": "2026-08-12T01:25:58.659Z",
+      "updated_at": "2026-08-12T01:25:58.659Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "al-7o3s9h2ct",
+      "user_id": "u-bjg923idg",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: test_citizen_1782162419240@imalihub.rw, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:06:59.707Z",
+      "updated_at": "2026-06-22T21:06:59.707Z"
+    },
+    {
+      "id": "al-n2kvm5x30",
+      "user_id": "u-bjg923idg",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:06:59.968Z",
+      "updated_at": "2026-06-22T21:06:59.968Z"
+    },
+    {
+      "id": "al-f30hf4w6z",
+      "user_id": "u-aqgrs0a8y",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: test_citizen_1782162502727@imalihub.rw, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:08:23.012Z",
+      "updated_at": "2026-06-22T21:08:23.012Z"
+    },
+    {
+      "id": "al-en1kgdehl",
+      "user_id": "u-aqgrs0a8y",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:08:23.241Z",
+      "updated_at": "2026-06-22T21:08:23.241Z"
+    },
+    {
+      "id": "al-jqhg0vd7j",
+      "user_id": "u-aqgrs0a8y",
+      "action": "APPLICATION_CREATE",
+      "details": "Submitted application: ID app-7ehs6ogon for loan l1b07384-d113-4956-bc21-0a625a6f23c1 amount RWF 850000",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:08:23.284Z",
+      "updated_at": "2026-06-22T21:08:23.284Z"
+    },
+    {
+      "id": "al-9jbj69l8q",
+      "user_id": "system",
+      "action": "MOMO_DISBURSEMENT_SUCCESS",
+      "details": "Successfully disbursed funds for app app-7ehs6ogon via MTN MoMo",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-22T21:08:23.491Z",
+      "updated_at": "2026-06-22T21:08:23.493Z"
+    },
+    {
+      "id": "al-pfs2lcgeb",
+      "user_id": "u-f12wrd2hm",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: bill@gmail.com, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-24T09:38:24.783Z",
+      "updated_at": "2026-06-24T09:38:24.783Z"
+    },
+    {
+      "id": "al-stjpbeprb",
+      "user_id": "u-gv7jj3mbi",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: lewis@gmail.com, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-24T09:39:40.328Z",
+      "updated_at": "2026-06-24T09:39:40.328Z"
+    },
+    {
+      "id": "al-rky3v0omj",
+      "user_id": "u-gv7jj3mbi",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-24T09:39:47.031Z",
+      "updated_at": "2026-06-24T09:39:47.031Z"
+    },
+    {
+      "id": "al-vyuxgiaza",
+      "user_id": "u-gv7jj3mbi",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-25T21:14:31.293Z",
+      "updated_at": "2026-06-25T21:14:31.293Z"
+    },
+    {
+      "id": "al-kpyowkljj",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: billy@gmail.com, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-25T21:39:45.538Z",
+      "updated_at": "2026-06-25T21:39:45.538Z"
+    },
+    {
+      "id": "al-yvwqwxs1j",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-25T21:40:07.248Z",
+      "updated_at": "2026-06-25T21:40:07.248Z"
+    },
+    {
+      "id": "al-x8valq103",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-25T21:42:08.479Z",
+      "updated_at": "2026-06-25T21:42:08.479Z"
+    },
+    {
+      "id": "al-3ia1rs1vx",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: billy1@gmail.com, role: bank_officer",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-29T18:16:49.173Z",
+      "updated_at": "2026-06-29T18:16:49.173Z"
+    },
+    {
+      "id": "al-v6zxqkudj",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-29T18:17:09.060Z",
+      "updated_at": "2026-06-29T18:17:09.060Z"
+    },
+    {
+      "id": "al-bwh33lbit",
+      "user_id": "u-5th4tsn0l",
+      "action": "APPLICATION_STATUS_UPDATE",
+      "details": "Updated application ID app-7ehs6ogon state to under_review. Details: Loan disbursed via MTN MoMo. Txn Ref: tx-test-993882",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-29T18:26:01.476Z",
+      "updated_at": "2026-06-29T18:26:01.476Z"
+    },
+    {
+      "id": "al-bwt8hgs9n",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-30T07:42:24.822Z",
+      "updated_at": "2026-06-30T07:42:24.823Z"
+    },
+    {
+      "id": "al-ancus7p97",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-06-30T07:44:40.820Z",
+      "updated_at": "2026-06-30T07:44:40.820Z"
+    },
+    {
+      "id": "al-xj3kvo492",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-30T17:58:35.811Z",
+      "updated_at": "2026-07-30T17:58:35.811Z"
+    },
+    {
+      "id": "al-ggs7ht5h9",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-30T18:18:18.363Z",
+      "updated_at": "2026-07-30T18:18:18.364Z"
+    },
+    {
+      "id": "al-yknbwaq28",
+      "user_id": "u-761hzugxl",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: birilewis2019@gmail.com, role: bank_officer",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-30T18:33:33.508Z",
+      "updated_at": "2026-07-30T18:33:33.508Z"
+    },
+    {
+      "id": "al-4j2cbws49",
+      "user_id": "u-761hzugxl",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-30T18:33:47.244Z",
+      "updated_at": "2026-07-30T18:33:47.244Z"
+    },
+    {
+      "id": "al-cvcklo61i",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-30T19:11:20.293Z",
+      "updated_at": "2026-07-30T19:11:20.293Z"
+    },
+    {
+      "id": "al-w9gx767bg",
+      "user_id": "u-761hzugxl",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-07-31T06:05:38.327Z",
+      "updated_at": "2026-07-31T06:05:38.328Z"
+    },
+    {
+      "id": "al-vwcmd4os1",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T09:56:15.422Z",
+      "updated_at": "2026-08-03T09:56:15.423Z"
+    },
+    {
+      "id": "al-q02wkbopj",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T11:42:48.391Z",
+      "updated_at": "2026-08-03T11:42:48.392Z"
+    },
+    {
+      "id": "al-57jg60lar",
+      "user_id": "u-5th4tsn0l",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T12:37:16.629Z",
+      "updated_at": "2026-08-03T12:37:16.629Z"
+    },
+    {
+      "id": "al-io9z3tl2w",
+      "user_id": "u-761hzugxl",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T12:42:31.326Z",
+      "updated_at": "2026-08-03T12:42:31.326Z"
+    },
+    {
+      "id": "al-5vj9pojyn",
+      "user_id": "u-761hzugxl",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:03:45.554Z",
+      "updated_at": "2026-08-03T13:03:45.554Z"
+    },
+    {
+      "id": "al-tp4jo5e5d",
+      "user_id": "u-761hzugxl",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:06:59.310Z",
+      "updated_at": "2026-08-03T13:06:59.310Z"
+    },
+    {
+      "id": "al-ujmx0e47v",
+      "user_id": "u-we52h3rdy",
+      "action": "PASSWORD_RESET_REQUEST",
+      "details": "Reset code generated: 319000",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:07:55.042Z",
+      "updated_at": "2026-08-03T13:07:55.042Z"
+    },
+    {
+      "id": "al-ozko010f1",
+      "user_id": "u-we52h3rdy",
+      "action": "PASSWORD_RESET_EXECUTE",
+      "details": "Password successfully reset.",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:08:44.360Z",
+      "updated_at": "2026-08-03T13:08:44.360Z"
+    },
+    {
+      "id": "al-xrdcnt342",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:08:56.749Z",
+      "updated_at": "2026-08-03T13:08:56.749Z"
+    },
+    {
+      "id": "al-cnljlbia1",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-03T13:49:42.195Z",
+      "updated_at": "2026-08-03T13:49:42.195Z"
+    },
+    {
+      "id": "al-ydci9vsbr",
+      "user_id": "u-we52h3rdy",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-04T07:46:09.811Z",
+      "updated_at": "2026-08-04T07:46:09.812Z"
+    },
+    {
+      "id": "al-xgc33mt28",
+      "user_id": "u-0qsdkynnk",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: blcinton2026@gmail.com, role: bank_officer",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-05T08:20:48.005Z",
+      "updated_at": "2026-08-05T08:20:48.005Z"
+    },
+    {
+      "id": "al-a36pgwqtt",
+      "user_id": "u-r6sm2inp3",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: birilewis219@gmail.com, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-10T18:41:14.116Z",
+      "updated_at": "2026-08-10T18:41:14.116Z"
+    },
+    {
+      "id": "al-cir0rbj6b",
+      "user_id": "u-r6sm2inp3",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-10T18:41:24.092Z",
+      "updated_at": "2026-08-10T18:41:24.093Z"
+    },
+    {
+      "id": "al-n4ixhxl68",
+      "user_id": "a1b07384-d113-4956-bc21-0a625a6f23b5",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-11T02:59:13.743Z",
+      "updated_at": "2026-08-11T02:59:13.744Z"
+    },
+    {
+      "id": "al-zdj0qhle6",
+      "user_id": "a1b07384-d113-4956-bc21-0a625a6f23b5",
+      "action": "APPLICATION_FORWARD",
+      "details": "Forwarded application ID app-7ehs6ogon to credit_manager",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-11T02:59:56.745Z",
+      "updated_at": "2026-08-11T02:59:56.746Z"
+    },
+    {
+      "id": "al-5oqlhrftq",
+      "user_id": "b2b07384-d113-4956-bc21-0a625a6f23b6",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-11T03:43:13.583Z",
+      "updated_at": "2026-08-11T03:43:13.583Z"
+    },
+    {
+      "id": "al-dd0i4hgtl",
+      "user_id": "c3b07384-d113-4956-bc21-0a625a6f23b7",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-11T03:44:02.236Z",
+      "updated_at": "2026-08-11T03:44:02.236Z"
+    },
+    {
+      "id": "al-gfngn0os0",
+      "user_id": "a1b07384-d113-4956-bc21-0a625a6f23b5",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-12T01:19:22.262Z",
+      "updated_at": "2026-08-12T01:19:22.262Z"
+    },
+    {
+      "id": "al-adbn76xnn",
+      "user_id": "u-g1iac1rq8",
+      "action": "USER_REGISTER",
+      "details": "User registered with email: birilewis2019@gmail.com, role: citizen",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-12T01:25:58.659Z",
+      "updated_at": "2026-08-12T01:25:58.659Z"
+    },
+    {
+      "id": "al-rbvhspgql",
+      "user_id": "u-g1iac1rq8",
+      "action": "USER_LOGIN",
+      "details": "Successful login from ::1",
+      "ip_address": "0.0.0.0",
+      "created_at": "2026-08-12T01:26:29.165Z",
+      "updated_at": "2026-08-12T01:26:29.165Z"
+    }
+  ]
+}
