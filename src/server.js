@@ -34,7 +34,21 @@ app.use(helmet({
   }
 }));
 
-app.use(cors());
+// Configure CORS based on .env
+const corsOrigins = process.env.CORS_ORIGIN 
+  ? process.env.CORS_ORIGIN.split(',').map(o => o.trim()) 
+  : ['http://localhost:5173', 'https://imari.bellbot.store'];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || corsOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
 
 // Parsing payloads
 app.use(express.json());
