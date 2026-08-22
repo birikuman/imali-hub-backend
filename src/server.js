@@ -78,7 +78,12 @@ const uploadDir = path.resolve(process.env.UPLOAD_DIR || './uploads');
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
-app.use('/uploads', express.static(uploadDir));
+// Dynamic runtime environment config for frontend
+app.get(['/js/env.js', '/env.js'], (req, res) => {
+  const apiUrl = process.env.VITE_API_URL || `http://localhost:${PORT}/api`;
+  res.type('application/javascript');
+  res.send(`window.VITE_API_URL = "${apiUrl}";\nwindow.API_BASE = "${apiUrl}";`);
+});
 
 // Serve Frontend Static SPA files (Only in production)
 if (process.env.NODE_ENV === 'production') {
